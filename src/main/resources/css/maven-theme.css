@@ -44,15 +44,14 @@ acronym {
 body {
   background-color: #fff;
   color: #333;
-  font-family: Georgia, serif;
-  font-size: 12px;
-  line-height: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.2em;
   margin: 0;
   padding: 0;
 }
 code{
   font-family: monospace;
-  font-size: 12px;
 }
 div.clear {
   clear:both;
@@ -77,11 +76,6 @@ img {
   border:none;
 }
 p {
-  font-size: 12px;
-  line-height: 15px;
-  margin-bottom: 15px;
-  margin-top: 0;
-  max-width: 400px;
 }
 table {
   padding: 0;
@@ -109,38 +103,52 @@ table.bodyTable tr.a:hover, table.bodyTable tr.b:hover {
 }
 td, select, input {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
 }
+
 #banner {
-  padding: 0;
+  margin-left: 250px;
+  padding: 0px;
+  padding-top: 20px;
+  width: 650px;
 }
 #banner img {
   border: none;
 }
-#bannerLeft, #bannerRight {
+#bannerLeft {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
+  padding-top: 15px;
+  font-size: 2.0em;
+  float: left;
+}
+#bannerRight {
+    float: right;
 }
 #bannerLeft img, #bannerRight img {
   margin: 0;
 }
+
 #breadcrumbs {
-  background-color: #ddddff;
-  color: #666;
+  color: #999;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.0em;
-  padding: 10px 20px;
+  font-size: 0.8em;
+  margin-left: 250px;
+  padding-top: 20px;
+  width: 650px;
 }
 #bodyColumn {
-  margin-right: 1.5em;
-  margin-left: 230px;
+  margin-left: 250px;
+  padding-top: 20px;
+  width: 650px;
 }
 #footer {
   border-top: solid #ccc 1px;
   color: #808080;
   margin: 20px 0 20px 0;
   padding: 10px;
+  margin-left: 250px;
+  padding-top: 20px;
+  width: 650px;
 }
 #intro {
   border: solid #ccc 1px;
@@ -148,7 +156,6 @@ td, select, input {
   padding: 10px 40px 10px 40px;
 }
 #lastPublished {
-  font-size: x-small;
 }
 #legend {
   padding: 8px 0 8px 0;
@@ -158,11 +165,12 @@ td, select, input {
   border-color: #cccccc;
   border-width: 1px;
   background-repeat: repeat;
-  background-image: url(../images/stripe.png);
-  float:left;
+  background-color: #eee;
+  float: left;
   overflow: auto;
   padding-right: 5px;
   padding-left: 5px;
+  font-size: 0.9em;
   width: 200px;
 }
 #navcolumn {
@@ -170,7 +178,6 @@ td, select, input {
 }
 #navcolumn h5 {
   border-bottom: 1px solid #aaaaaa;
-  font-size: 12px;
   padding-top: 4px;
 }
 #navcolumn img {
@@ -182,7 +189,6 @@ td, select, input {
   list-style-type: none;
 }
 #navcolumn ul {
-  font-size: 10px;
   line-height: 14px;
   padding-left: 10px;
 }
@@ -229,7 +235,6 @@ td, select, input {
 }
 .navSectionHead {
   font-weight: bold;
-  font-size: x-small;
 }
 .section {
   padding: 4px;
@@ -251,11 +256,9 @@ td, select, input {
   color: #333333;
 }
 .subsection p {
-  font-size: 12px;
 }
 .subsectionTitle {
   color: #666;
-  font-size: 13px;
   font-weight: bold;
 }
 .xleft, #bannerLeft img {
@@ -269,4 +272,7 @@ td, select, input {
 }
 .xright a:hover {
   color: #003300;
+}
+div#contentBox {
+    width: 600px;
 }
